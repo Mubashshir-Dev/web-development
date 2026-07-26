@@ -1,0 +1,14 @@
+{
+  "name": "nodejs_npm",
+  "version": "1.0.0",
+  "description": "Practice",
+  "author": "Mubashshir-Dev",
+  "type": "commonjs",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "supervillains": "^4.0.0"
+  }
+}
