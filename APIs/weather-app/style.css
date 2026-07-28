@@ -1,0 +1,16 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+hr{
+    margin: 50px auto  20px auto;
+    border-style: dotted;
+    border-top: 0px;
+    border-left:0px ;
+    border-right: 0px;
+    width: 100px;}
+
+.submit{
+    margin-top: 30px;
+}

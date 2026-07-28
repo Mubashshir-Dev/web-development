@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center>
+    <form action="/weather" method="post">
+        <label for="city">City</label>
+        <input type="text" name="city" placeholder="city">
+        <hr>
+        <br>
+        <br>
+        <label for="unit">Unit</label>
+        <br>
+        <br>
+        <input type="radio" name="unit" value="Celsius">
+        <label>Celsius</label>
+        <br>
+        <input type="radio" name="unit" value="Kelvin">
+        <label>kelvin</label>
+        <br>
+        <input type="radio" name="unit" value="fahrenheit">
+        <label>fahrenheit</label>
+        <br>
+        <input type="submit" class="submit">
+    </form>
+    <br>
+    <a href="https://openweathermap.org/api">get api key</a>
+    </center>
+    <script src="script.js"></script>
+
+
+</body>
+</html>
